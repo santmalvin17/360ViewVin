@@ -1,0 +1,668 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0C96482CD92BEB4292269F0CB3DCEAC4 /* Image360Controller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A48E7ECA5DE83034DDC3683842F4A18 /* Image360Controller.swift */; };
+		2063D80E09F26FE9653113EE3A6C0775 /* Image360GLController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51B491D6A2DEC36F626D2FBFFE4AC716 /* Image360GLController.swift */; };
+		47590B98DE573B126857EC36EE124750 /* Image360-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E0FF394FBCFFE5E3A6B489EA4B881DBC /* Image360-dummy.m */; };
+		5CC3CC91A915B104F18C1277BC2F2E54 /* Pods-360ViewVin-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AA1576EDA9C22990B51260267D80CD0E /* Pods-360ViewVin-dummy.m */; };
+		69F66B1E8E046A15AD18B314294C4F32 /* Pods-360ViewVin-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 29B890504EBF568D6E961DC31E08B47F /* Pods-360ViewVin-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		759D53940942E4BDE009BB2F63618FFC /* Image360View.swift in Sources */ = {isa = PBXBuildFile; fileRef = F020172AAEDC68B4D7D7C71C89EBA41E /* Image360View.swift */; };
+		7802F8470A72749A5C36A7594C508D66 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E8AAD3485DEE52C01B91534C9297B7D /* Foundation.framework */; };
+		84052EBAB823720A781657C30322578B /* Controller.swift in Sources */ = {isa = PBXBuildFile; fileRef = F89DB2333924DB9877B18F312AD7A564 /* Controller.swift */; };
+		873BDE7D639CB07C6E0104297BD61308 /* OrientationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 595332B7BF600C4AD4AA74373F5DD1F2 /* OrientationView.swift */; };
+		9776001FCC2C2147CFFE39F51A5360C3 /* black.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F0E278FE52E42D518210D9D46284874D /* black.jpg */; };
+		9937D543707D3338D9CC7132C6183034 /* GLKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEB1E241A6E769A9B39BCF72E12B6B6B /* GLKit.framework */; };
+		9E622E9E604466B3B5B9D0BC19D15DAD /* FragmentShader.glsl in Resources */ = {isa = PBXBuildFile; fileRef = E27AD919484D349BA67202B03DFD08BA /* FragmentShader.glsl */; };
+		AA4B0D06BA1FE9809DE26B1870E5A591 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E8AAD3485DEE52C01B91534C9297B7D /* Foundation.framework */; };
+		C02AA444C587F58BE469FBE284295004 /* GestureController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C897E033D67030E145FC5D5C0755EF48 /* GestureController.swift */; };
+		C1019E5CEA54D3983825355FB73707CE /* Shader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79A079C02081B304DDE19FAD4B0A9519 /* Shader.swift */; };
+		C48D3369176E1C3C7D6144E2CC91D9B4 /* VertexShader.glsl in Resources */ = {isa = PBXBuildFile; fileRef = 8E2E494DB03D51B6B711620FFBD09525 /* VertexShader.glsl */; };
+		CD3ED11F783E139E0CB9757202F28B22 /* Image360-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CF90236C09CE7635B2A858A9D06733E8 /* Image360-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D0332F8CC132115D0ED35448ECEEB152 /* GLKUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = B45D144F5CB9C080531B5024347F96E0 /* GLKUtils.swift */; };
+		E23213D051A45999598CF95C79759110 /* Sphere.swift in Sources */ = {isa = PBXBuildFile; fileRef = E630537BA666B7E2922305F9D745CC08 /* Sphere.swift */; };
+		E620D49C1002F463ADBBFE92EFCE5031 /* MotionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 986B9425CDCE934BF0021576BEB0A2B8 /* MotionController.swift */; };
+		F659D36CEE46706894D73B97C0FC9418 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E20B4A26B4A558EB190A8A78C7CF0CC6 /* UIKit.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B0622680504022900C67FBAD44742725 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E7E17E27AACC0265198F15D4F7031148;
+			remoteInfo = Image360;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0AEB6CBC34B047515A1FC7CF8846AF11 /* Pods-360ViewVin.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-360ViewVin.debug.xcconfig"; sourceTree = "<group>"; };
+		195182F66CE6B8DFFC85E3E8C8C1AEDB /* Image360-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Image360-prefix.pch"; sourceTree = "<group>"; };
+		29B890504EBF568D6E961DC31E08B47F /* Pods-360ViewVin-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-360ViewVin-umbrella.h"; sourceTree = "<group>"; };
+		3466FFB3C383F6C6E2B25911BA358FC4 /* Pods-360ViewVin-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-360ViewVin-frameworks.sh"; sourceTree = "<group>"; };
+		474227BF7820C044C3F106400A7A7685 /* Pods-360ViewVin.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-360ViewVin.modulemap"; sourceTree = "<group>"; };
+		4A48E7ECA5DE83034DDC3683842F4A18 /* Image360Controller.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Image360Controller.swift; path = Image360/Core/Image360Controller.swift; sourceTree = "<group>"; };
+		4E8AAD3485DEE52C01B91534C9297B7D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		51B491D6A2DEC36F626D2FBFFE4AC716 /* Image360GLController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Image360GLController.swift; path = Image360/Core/Image360GLController.swift; sourceTree = "<group>"; };
+		595332B7BF600C4AD4AA74373F5DD1F2 /* OrientationView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = OrientationView.swift; path = Image360/Core/OrientationView.swift; sourceTree = "<group>"; };
+		715450D14E5370FE38BDA0401A940E04 /* Pods_360ViewVin.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_360ViewVin.framework; path = "Pods-360ViewVin.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		75CA16E1B34F4D78C4159BECFDE2A155 /* Image360-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Image360-Info.plist"; sourceTree = "<group>"; };
+		78257D9578FA37FB666FAFB823315D04 /* Image360.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Image360.xcconfig; sourceTree = "<group>"; };
+		79A079C02081B304DDE19FAD4B0A9519 /* Shader.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Shader.swift; path = Image360/Core/Shader.swift; sourceTree = "<group>"; };
+		8E2E494DB03D51B6B711620FFBD09525 /* VertexShader.glsl */ = {isa = PBXFileReference; includeInIndex = 1; name = VertexShader.glsl; path = Image360/Shaders/VertexShader.glsl; sourceTree = "<group>"; };
+		9095710A8F8962793668558AF9BA9F39 /* Pods-360ViewVin-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-360ViewVin-acknowledgements.markdown"; sourceTree = "<group>"; };
+		986B9425CDCE934BF0021576BEB0A2B8 /* MotionController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MotionController.swift; path = Image360/Core/Controllers/MotionController.swift; sourceTree = "<group>"; };
+		9ADAD60735B78F809827580B66E57EC1 /* Pods-360ViewVin.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-360ViewVin.release.xcconfig"; sourceTree = "<group>"; };
+		9BB45D6489C8C71941A778D99F9B2290 /* Image360.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Image360.modulemap; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		AA1576EDA9C22990B51260267D80CD0E /* Pods-360ViewVin-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-360ViewVin-dummy.m"; sourceTree = "<group>"; };
+		AAD9C2D5FDC4ACF48E378C97D7BF89E6 /* Pods-360ViewVin-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-360ViewVin-Info.plist"; sourceTree = "<group>"; };
+		B45D144F5CB9C080531B5024347F96E0 /* GLKUtils.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GLKUtils.swift; path = Image360/Core/GLKUtils.swift; sourceTree = "<group>"; };
+		C897E033D67030E145FC5D5C0755EF48 /* GestureController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GestureController.swift; path = Image360/Core/Controllers/GestureController.swift; sourceTree = "<group>"; };
+		CEB1E241A6E769A9B39BCF72E12B6B6B /* GLKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/GLKit.framework; sourceTree = DEVELOPER_DIR; };
+		CF90236C09CE7635B2A858A9D06733E8 /* Image360-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Image360-umbrella.h"; sourceTree = "<group>"; };
+		D6EF4320C53AF0C8455176EAF2B7B371 /* Image360.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Image360.framework; path = Image360.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E0FF394FBCFFE5E3A6B489EA4B881DBC /* Image360-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Image360-dummy.m"; sourceTree = "<group>"; };
+		E20B4A26B4A558EB190A8A78C7CF0CC6 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		E27AD919484D349BA67202B03DFD08BA /* FragmentShader.glsl */ = {isa = PBXFileReference; includeInIndex = 1; name = FragmentShader.glsl; path = Image360/Shaders/FragmentShader.glsl; sourceTree = "<group>"; };
+		E630537BA666B7E2922305F9D745CC08 /* Sphere.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Sphere.swift; path = Image360/Core/Sphere.swift; sourceTree = "<group>"; };
+		EB6E9B3A8B2961F62AB1FFCA48A24849 /* Pods-360ViewVin-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-360ViewVin-acknowledgements.plist"; sourceTree = "<group>"; };
+		F020172AAEDC68B4D7D7C71C89EBA41E /* Image360View.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Image360View.swift; path = Image360/Core/Image360View.swift; sourceTree = "<group>"; };
+		F0E278FE52E42D518210D9D46284874D /* black.jpg */ = {isa = PBXFileReference; includeInIndex = 1; name = black.jpg; path = Image360/Resources/black.jpg; sourceTree = "<group>"; };
+		F89DB2333924DB9877B18F312AD7A564 /* Controller.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Controller.swift; path = Image360/Core/Controllers/Controller.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		03793DAC02AEF9B063D02127C04E38F0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA4B0D06BA1FE9809DE26B1870E5A591 /* Foundation.framework in Frameworks */,
+				9937D543707D3338D9CC7132C6183034 /* GLKit.framework in Frameworks */,
+				F659D36CEE46706894D73B97C0FC9418 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1CFC775E41D606AC826A3032E50922A5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7802F8470A72749A5C36A7594C508D66 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		03C5C200A0787E300053CFA8F53CA094 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				75C99711EF75E28259A139118C48E264 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		079EA631DCE5D075E8EE9F7418CF4B7F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8F73540685DFAB68EAD5B3EAE76A626B /* Image360 */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		1934E9D140C5045C197CC6A6D9742878 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D6EF4320C53AF0C8455176EAF2B7B371 /* Image360.framework */,
+				715450D14E5370FE38BDA0401A940E04 /* Pods_360ViewVin.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		75C99711EF75E28259A139118C48E264 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				4E8AAD3485DEE52C01B91534C9297B7D /* Foundation.framework */,
+				CEB1E241A6E769A9B39BCF72E12B6B6B /* GLKit.framework */,
+				E20B4A26B4A558EB190A8A78C7CF0CC6 /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		884B16521BDB0FE8BCF1D4A91FC720CB /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				F0E278FE52E42D518210D9D46284874D /* black.jpg */,
+				E27AD919484D349BA67202B03DFD08BA /* FragmentShader.glsl */,
+				8E2E494DB03D51B6B711620FFBD09525 /* VertexShader.glsl */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		8F73540685DFAB68EAD5B3EAE76A626B /* Image360 */ = {
+			isa = PBXGroup;
+			children = (
+				F89DB2333924DB9877B18F312AD7A564 /* Controller.swift */,
+				C897E033D67030E145FC5D5C0755EF48 /* GestureController.swift */,
+				B45D144F5CB9C080531B5024347F96E0 /* GLKUtils.swift */,
+				4A48E7ECA5DE83034DDC3683842F4A18 /* Image360Controller.swift */,
+				51B491D6A2DEC36F626D2FBFFE4AC716 /* Image360GLController.swift */,
+				F020172AAEDC68B4D7D7C71C89EBA41E /* Image360View.swift */,
+				986B9425CDCE934BF0021576BEB0A2B8 /* MotionController.swift */,
+				595332B7BF600C4AD4AA74373F5DD1F2 /* OrientationView.swift */,
+				79A079C02081B304DDE19FAD4B0A9519 /* Shader.swift */,
+				E630537BA666B7E2922305F9D745CC08 /* Sphere.swift */,
+				884B16521BDB0FE8BCF1D4A91FC720CB /* Resources */,
+				D26381FA24846C2AE35BD562167B25BB /* Support Files */,
+			);
+			name = Image360;
+			path = Image360;
+			sourceTree = "<group>";
+		};
+		A069B69FB971560AF5AEAAFB2FCD6E1F /* Pods-360ViewVin */ = {
+			isa = PBXGroup;
+			children = (
+				474227BF7820C044C3F106400A7A7685 /* Pods-360ViewVin.modulemap */,
+				9095710A8F8962793668558AF9BA9F39 /* Pods-360ViewVin-acknowledgements.markdown */,
+				EB6E9B3A8B2961F62AB1FFCA48A24849 /* Pods-360ViewVin-acknowledgements.plist */,
+				AA1576EDA9C22990B51260267D80CD0E /* Pods-360ViewVin-dummy.m */,
+				3466FFB3C383F6C6E2B25911BA358FC4 /* Pods-360ViewVin-frameworks.sh */,
+				AAD9C2D5FDC4ACF48E378C97D7BF89E6 /* Pods-360ViewVin-Info.plist */,
+				29B890504EBF568D6E961DC31E08B47F /* Pods-360ViewVin-umbrella.h */,
+				0AEB6CBC34B047515A1FC7CF8846AF11 /* Pods-360ViewVin.debug.xcconfig */,
+				9ADAD60735B78F809827580B66E57EC1 /* Pods-360ViewVin.release.xcconfig */,
+			);
+			name = "Pods-360ViewVin";
+			path = "Target Support Files/Pods-360ViewVin";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				03C5C200A0787E300053CFA8F53CA094 /* Frameworks */,
+				079EA631DCE5D075E8EE9F7418CF4B7F /* Pods */,
+				1934E9D140C5045C197CC6A6D9742878 /* Products */,
+				FA15226D22F48F914083B440814678FD /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D26381FA24846C2AE35BD562167B25BB /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				9BB45D6489C8C71941A778D99F9B2290 /* Image360.modulemap */,
+				78257D9578FA37FB666FAFB823315D04 /* Image360.xcconfig */,
+				E0FF394FBCFFE5E3A6B489EA4B881DBC /* Image360-dummy.m */,
+				75CA16E1B34F4D78C4159BECFDE2A155 /* Image360-Info.plist */,
+				195182F66CE6B8DFFC85E3E8C8C1AEDB /* Image360-prefix.pch */,
+				CF90236C09CE7635B2A858A9D06733E8 /* Image360-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Image360";
+			sourceTree = "<group>";
+		};
+		FA15226D22F48F914083B440814678FD /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				A069B69FB971560AF5AEAAFB2FCD6E1F /* Pods-360ViewVin */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		185EEA5E4BFFD8BB0B00F6A84588AF52 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD3ED11F783E139E0CB9757202F28B22 /* Image360-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		600D1778EC9CE5BE9C12FCB904B200CC /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				69F66B1E8E046A15AD18B314294C4F32 /* Pods-360ViewVin-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		DA8A2E6118218C3324D8074C0E6C9797 /* Pods-360ViewVin */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DD4152CC1A183C01C24AB9FA755F01FB /* Build configuration list for PBXNativeTarget "Pods-360ViewVin" */;
+			buildPhases = (
+				600D1778EC9CE5BE9C12FCB904B200CC /* Headers */,
+				0BDBB03E047D1BBCF443F5D15F28093B /* Sources */,
+				1CFC775E41D606AC826A3032E50922A5 /* Frameworks */,
+				1D16C76653244ADF16BEA1A5CA817C3C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FE9B1F14CF0DE5A6E2687253EFCEDCAA /* PBXTargetDependency */,
+			);
+			name = "Pods-360ViewVin";
+			productName = "Pods-360ViewVin";
+			productReference = 715450D14E5370FE38BDA0401A940E04 /* Pods_360ViewVin.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		E7E17E27AACC0265198F15D4F7031148 /* Image360 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FFB0D47438AFBD5323440E8E7705C03C /* Build configuration list for PBXNativeTarget "Image360" */;
+			buildPhases = (
+				185EEA5E4BFFD8BB0B00F6A84588AF52 /* Headers */,
+				2B885E94448AC422A499D023619F9E45 /* Sources */,
+				03793DAC02AEF9B063D02127C04E38F0 /* Frameworks */,
+				D586295BF78033675F3891724023F652 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Image360;
+			productName = Image360;
+			productReference = D6EF4320C53AF0C8455176EAF2B7B371 /* Image360.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 1934E9D140C5045C197CC6A6D9742878 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E7E17E27AACC0265198F15D4F7031148 /* Image360 */,
+				DA8A2E6118218C3324D8074C0E6C9797 /* Pods-360ViewVin */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1D16C76653244ADF16BEA1A5CA817C3C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D586295BF78033675F3891724023F652 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9776001FCC2C2147CFFE39F51A5360C3 /* black.jpg in Resources */,
+				9E622E9E604466B3B5B9D0BC19D15DAD /* FragmentShader.glsl in Resources */,
+				C48D3369176E1C3C7D6144E2CC91D9B4 /* VertexShader.glsl in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0BDBB03E047D1BBCF443F5D15F28093B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5CC3CC91A915B104F18C1277BC2F2E54 /* Pods-360ViewVin-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2B885E94448AC422A499D023619F9E45 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84052EBAB823720A781657C30322578B /* Controller.swift in Sources */,
+				C02AA444C587F58BE469FBE284295004 /* GestureController.swift in Sources */,
+				D0332F8CC132115D0ED35448ECEEB152 /* GLKUtils.swift in Sources */,
+				47590B98DE573B126857EC36EE124750 /* Image360-dummy.m in Sources */,
+				0C96482CD92BEB4292269F0CB3DCEAC4 /* Image360Controller.swift in Sources */,
+				2063D80E09F26FE9653113EE3A6C0775 /* Image360GLController.swift in Sources */,
+				759D53940942E4BDE009BB2F63618FFC /* Image360View.swift in Sources */,
+				E620D49C1002F463ADBBFE92EFCE5031 /* MotionController.swift in Sources */,
+				873BDE7D639CB07C6E0104297BD61308 /* OrientationView.swift in Sources */,
+				C1019E5CEA54D3983825355FB73707CE /* Shader.swift in Sources */,
+				E23213D051A45999598CF95C79759110 /* Sphere.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FE9B1F14CF0DE5A6E2687253EFCEDCAA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Image360;
+			target = E7E17E27AACC0265198F15D4F7031148 /* Image360 */;
+			targetProxy = B0622680504022900C67FBAD44742725 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		59FBA17F7F1F969B8CC2796DBAD4480E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0AEB6CBC34B047515A1FC7CF8846AF11 /* Pods-360ViewVin.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-360ViewVin/Pods-360ViewVin-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-360ViewVin/Pods-360ViewVin.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		939F1A8F6BCEB7F9F64D9EEE50CAE014 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		C7FB0DD8EA0405F409429D174E81E457 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 78257D9578FA37FB666FAFB823315D04 /* Image360.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Image360/Image360-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Image360/Image360-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/Image360/Image360.modulemap";
+				PRODUCT_MODULE_NAME = Image360;
+				PRODUCT_NAME = Image360;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		D8E4CF971BEF2A4E25CDE6CDCF0B3C9F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 78257D9578FA37FB666FAFB823315D04 /* Image360.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Image360/Image360-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Image360/Image360-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/Image360/Image360.modulemap";
+				PRODUCT_MODULE_NAME = Image360;
+				PRODUCT_NAME = Image360;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		ECB437504DF805BD96CAABF97400B526 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		F3809E6718CA42B5EA9AB9462AEA567C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9ADAD60735B78F809827580B66E57EC1 /* Pods-360ViewVin.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-360ViewVin/Pods-360ViewVin-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-360ViewVin/Pods-360ViewVin.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				939F1A8F6BCEB7F9F64D9EEE50CAE014 /* Debug */,
+				ECB437504DF805BD96CAABF97400B526 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DD4152CC1A183C01C24AB9FA755F01FB /* Build configuration list for PBXNativeTarget "Pods-360ViewVin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				59FBA17F7F1F969B8CC2796DBAD4480E /* Debug */,
+				F3809E6718CA42B5EA9AB9462AEA567C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FFB0D47438AFBD5323440E8E7705C03C /* Build configuration list for PBXNativeTarget "Image360" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D8E4CF971BEF2A4E25CDE6CDCF0B3C9F /* Debug */,
+				C7FB0DD8EA0405F409429D174E81E457 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

@@ -1,0 +1,16 @@
+PODS:
+  - Image360 (1.1.5)
+
+DEPENDENCIES:
+  - Image360 (~> 1.1.5)
+
+SPEC REPOS:
+  trunk:
+    - Image360
+
+SPEC CHECKSUMS:
+  Image360: 0704fcf1ec5ad8625ef8afbca8b1e89c331fa671
+
+PODFILE CHECKSUM: 7be60716acb04c61556d7ea14b4dcf56f8f1d589
+
+COCOAPODS: 1.8.4
